@@ -23,3 +23,7 @@ Hashing
 Salting
 
 - Adds additional security on top of hashing, this is mainly done by adding a random set of characters after the password then throwing it through a hash function, additional characters that are hashed exponentially increase the complexity and thus the time it would take to crack it. bCrypt does this well.
+
+Side notes:
+
+- Utilizing passportjs allows user authentication to be so much easier
