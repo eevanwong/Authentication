@@ -26,4 +26,4 @@ Salting
 
 Side notes:
 
-- Utilizing passportjs allows user authentication to be so much easier
+- Utilizing passportjs makes hashing, salting, and overall authentication much easier
