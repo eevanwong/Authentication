@@ -24,6 +24,10 @@ Salting
 
 - Adds additional security on top of hashing, this is mainly done by adding a random set of characters after the password then throwing it through a hash function, additional characters that are hashed exponentially increase the complexity and thus the time it would take to crack it. bCrypt does this well.
 
+OAuth
+
+- Allows authentication via other servers/networks, e.g when signing in with facebook, its able to (depending on what info you want to see) see all of your friends and can connect them if they also have an account on your application.
+
 Side notes:
 
 - Utilizing passportjs makes hashing, salting, and overall authentication much easier
